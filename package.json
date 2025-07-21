@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "name": "moplay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx json-server ./backend/db.json",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
